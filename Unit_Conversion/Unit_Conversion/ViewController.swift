@@ -10,6 +10,26 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    
+    @IBOutlet weak var LabelFahrenheit: UILabel!
+    
+    
+    @IBOutlet weak var LabelPond: UILabel!
+    
+    
+    @IBOutlet weak var LabelOz: UILabel!
+    
+    
+    @IBOutlet weak var labelCelsius: UILabel!
+    
+    
+    @IBOutlet weak var labelKg: UILabel!
+    
+    
+    @IBOutlet weak var labelMl: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +41,16 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func tappedGo(sender: UIButton) {
+    }
+    
+    
+    @IBAction func tappedNumber(sender: UIButton) {
+    }
+    
+    @IBAction func tappedC(sender: UIButton) {
+    }
+    
+    
 }
 

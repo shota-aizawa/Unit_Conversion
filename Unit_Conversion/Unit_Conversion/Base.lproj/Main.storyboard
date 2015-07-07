@@ -27,6 +27,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="24" y="285" width="61" height="60"/>
                                 </variation>
+                                <connections>
+                                    <action selector="tappedNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="PFP-y6-DAM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kF4-xH-2HU">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -39,6 +42,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="97" y="285" width="61" height="56"/>
                                 </variation>
+                                <connections>
+                                    <action selector="tappedNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="cxC-I5-qXc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iMO-Qc-2EU">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -51,6 +57,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="171" y="285" width="61" height="56"/>
                                 </variation>
+                                <connections>
+                                    <action selector="tappedNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lQB-xs-54v"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dr9-ni-vs2">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -63,6 +72,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="243" y="285" width="61" height="56"/>
                                 </variation>
+                                <connections>
+                                    <action selector="tappedNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Cvm-J2-zXy"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3We-RI-0qh">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -75,6 +87,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="316" y="285" width="61" height="201"/>
                                 </variation>
+                                <connections>
+                                    <action selector="tappedGo:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="l7b-Jv-P1r"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Bo-UK-h3w">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -87,6 +102,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="24" y="358" width="61" height="56"/>
                                 </variation>
+                                <connections>
+                                    <action selector="tappedNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aJh-if-pGZ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSu-1h-4eR">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -99,6 +117,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="97" y="358" width="61" height="56"/>
                                 </variation>
+                                <connections>
+                                    <action selector="tappedNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Dwr-Io-7TG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5LM-9P-SiP">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -111,6 +132,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="171" y="358" width="61" height="56"/>
                                 </variation>
+                                <connections>
+                                    <action selector="tappedNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8R0-eY-9dR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRB-Uf-moQ">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -123,6 +147,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="243" y="358" width="61" height="56"/>
                                 </variation>
+                                <connections>
+                                    <action selector="tappedNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="8s5-vD-aeW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GaN-g6-9Vt">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -135,6 +162,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="24" y="430" width="61" height="56"/>
                                 </variation>
+                                <connections>
+                                    <action selector="tappedC:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dz0-Gj-GKD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W3f-rx-8I5">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -147,6 +177,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="97" y="430" width="61" height="56"/>
                                 </variation>
+                                <connections>
+                                    <action selector="tappedNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4tH-f8-eox"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33e-mU-RLW">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -159,6 +192,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="171" y="430" width="61" height="56"/>
                                 </variation>
+                                <connections>
+                                    <action selector="tappedNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Ha0-hY-Mdx"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTq-xO-9Qs">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -171,17 +207,10 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="243" y="430" width="61" height="56"/>
                                 </variation>
+                                <connections>
+                                    <action selector="tappedNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="dwZ-rw-LeP"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V20-Bx-aLb">
-                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="40"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="24" y="43" width="89" height="61"/>
-                                </variation>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9pS-Na-Bo1">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -298,6 +327,16 @@
                                     <rect key="frame" x="347" y="208" width="45" height="30"/>
                                 </variation>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V20-Bx-aLb">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="40"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="24" y="43" width="89" height="61"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -315,7 +354,6 @@
                                 <exclude reference="W3f-rx-8I5"/>
                                 <exclude reference="33e-mU-RLW"/>
                                 <exclude reference="rTq-xO-9Qs"/>
-                                <exclude reference="V20-Bx-aLb"/>
                                 <exclude reference="9pS-Na-Bo1"/>
                                 <exclude reference="SXn-kX-krR"/>
                                 <exclude reference="oLr-U0-buS"/>
@@ -330,6 +368,7 @@
                                 <exclude reference="ZV7-XK-hBr"/>
                                 <exclude reference="ZYG-FG-NzS"/>
                                 <exclude reference="5SF-w4-Iu0"/>
+                                <exclude reference="V20-Bx-aLb"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -347,7 +386,6 @@
                                 <include reference="W3f-rx-8I5"/>
                                 <include reference="33e-mU-RLW"/>
                                 <include reference="rTq-xO-9Qs"/>
-                                <include reference="V20-Bx-aLb"/>
                                 <include reference="9pS-Na-Bo1"/>
                                 <include reference="SXn-kX-krR"/>
                                 <include reference="oLr-U0-buS"/>
@@ -362,9 +400,18 @@
                                 <include reference="ZV7-XK-hBr"/>
                                 <include reference="ZYG-FG-NzS"/>
                                 <include reference="5SF-w4-Iu0"/>
+                                <include reference="V20-Bx-aLb"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="LabelFahrenheit" destination="V20-Bx-aLb" id="GZX-Q7-RnF"/>
+                        <outlet property="LabelOz" destination="SXn-kX-krR" id="xdo-5n-nfk"/>
+                        <outlet property="LabelPond" destination="9pS-Na-Bo1" id="BJI-5A-TBS"/>
+                        <outlet property="labelCelsius" destination="oLr-U0-buS" id="5lh-To-FjE"/>
+                        <outlet property="labelKg" destination="UGY-r6-jIC" id="mVH-tM-LeY"/>
+                        <outlet property="labelMl" destination="JwL-zq-CHf" id="WJl-e6-IwM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
