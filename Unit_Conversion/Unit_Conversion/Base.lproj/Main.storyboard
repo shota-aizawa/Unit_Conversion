@@ -178,7 +178,7 @@
                                     <rect key="frame" x="80" y="388" width="50" height="45"/>
                                 </variation>
                                 <connections>
-                                    <action selector="tappedNumber:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="4tH-f8-eox"/>
+                                    <action selector="tappedDecimal:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="WUw-Ee-Sr0"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33e-mU-RLW">

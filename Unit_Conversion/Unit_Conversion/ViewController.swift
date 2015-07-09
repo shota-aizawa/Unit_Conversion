@@ -10,9 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    var total:Int = 0
+    var total:Double! = 0
     var valueString:String! = ""
     var mode:Int = 0
+    var decimalPressed:Int = 0
     
     
     @IBAction func switchTemperature(sender: UISwitch) {
@@ -23,6 +24,8 @@ class ViewController: UIViewController {
             total = 0
             valueString = ""
             LabelFahrenheit.text = "0"
+            labelCelsius.text = "0"
+            decimalPressed = 0
         }
         
     }
@@ -36,6 +39,8 @@ class ViewController: UIViewController {
             total = 0
             valueString = ""
             LabelPond.text = "0"
+            labelKg.text = "0"
+            decimalPressed = 0
         }
     }
     
@@ -48,6 +53,8 @@ class ViewController: UIViewController {
             total = 0
             valueString = ""
             LabelOz.text = "0"
+            labelMl.text = "0"
+            decimalPressed = 0
         }
     }
     
@@ -83,17 +90,115 @@ class ViewController: UIViewController {
 
 
     @IBAction func tappedGo(sender: UIButton) {
+        var number:Double! = total
+        var decimal:Float = float_t(total)
+        
+        
+        switch mode{
+        
+        case 1:
+            number = (total-32)*5/9
+            let a = Int(number)
+            labelCelsius.text = a.description
+            break
+        case 2:
+            decimal = round(decimal*4536/10000*100)/100
+            labelKg.text = decimal.description
+            break
+        case 3:
+            decimal = round(decimal*295735/10000)
+            let z = Int(decimal)
+        
+            labelMl.text = z.description
+            break
+        default:
+            break
+            
+        
+        }
+        
     }
+    
+//    func concatZero (s1:String...) ->String{
+//        var buff:String = "0."
+//        for s in s1 {
+//            buff += s
+//        }
+//        return buff
+//    }
+//    
+//    func concatNonZero(s2:String...) -> String{
+//        var buff2:String = ""
+//        for t in s2 {
+//            buff2 += t
+//        }
+//        return buff2
+//        
+//    }
+
+    
     
     
     @IBAction func tappedNumber(sender: UIButton) {
-        var str:String! = sender.titleLabel!.text
-        var num:Int! = str.toInt()
+        var current:String! = sender.titleLabel!.text
+        var num:Double! = NSString (string: current).doubleValue
+        
         if (num == 0 && total == 0){
             return
-        }
+        }else if (decimalPressed == 0){
         
-        valueString = valueString.stringByAppendingString(str)
+        valueString = valueString.stringByAppendingString(current)
+        
+            var formatter = NSNumberFormatter()
+            formatter.maximumFractionDigits = 5
+            formatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
+            var n:NSNumber = formatter.numberFromString(valueString)!
+
+            
+            
+            switch mode{
+                
+            case 1:
+                LabelFahrenheit.text = formatter.stringFromNumber(n)
+                break
+            case 2:
+                LabelPond.text = formatter.stringFromNumber(n)
+                break
+            case 3:
+                LabelOz.text = formatter.stringFromNumber(n)
+                break
+            default:
+                break}
+                
+        total = NSString(string: valueString).doubleValue
+            
+        }else if (decimalPressed == 1){
+            
+                if (num == 0){
+            
+    
+//                    valueString = concatZero().stringByAppendingString(current)
+
+                    valueString = valueString.stringByAppendingString(current)
+                    
+                }else {
+            
+//                    valueString = concatNonZero().stringByAppendingString(current)
+                    
+                    
+                    
+                        
+                        valueString = valueString.stringByAppendingString(current)
+                        var dec:Double = NSString (string: valueString).doubleValue
+                        dec = dec/10
+                    
+                    valueString = dec.description
+                    
+            
+                }
+        
+
+        
         switch mode{
         
         case 1:
@@ -107,12 +212,84 @@ class ViewController: UIViewController {
             break
         default:
             break
+            }
+                
+        total = NSString(string: valueString).doubleValue
             
-        }
-        total = valueString.toInt()!
+        }  else {
+            valueString = valueString.stringByAppendingString(current)
+            
+            var formatter = NSNumberFormatter()
+            formatter.maximumFractionDigits = 5
+            formatter.numberStyle = NSNumberFormatterStyle.DecimalStyle
+            var n:NSNumber = formatter.numberFromString(valueString)!
+            
+            
+            
+            switch mode{
+                
+            case 1:
+                LabelFahrenheit.text = formatter.stringFromNumber(n)
+                break
+            case 2:
+                LabelPond.text = formatter.stringFromNumber(n)
+                break
+            case 3:
+                LabelOz.text = formatter.stringFromNumber(n)
+                break
+            default:
+                break}
+            
+            total = NSString(string: valueString).doubleValue
+            
+            }
+            
         
         
     }
+    
+    
+    
+    @IBAction func tappedDecimal(sender: UIButton) {
+        
+        decimalPressed += 1
+        
+//        if (LabelFahrenheit.text == "0" && LabelPond.text == "0" && LabelOz.text == "0" ){
+//            switch mode{
+//            case 1:
+//                LabelFahrenheit.text = "0."
+//            break
+//            case 2:
+//                LabelPond.text = "0."
+//            break
+//            case 3:
+//                LabelOz.text = "0."
+//            break
+//            default:
+//            break
+//                
+//            }
+//        }else {
+//            switch mode {
+//            
+//            case 1:
+//            LabelFahrenheit.text = LabelFahrenheit.text! + "."
+//            break
+//            case 2:
+//            LabelPond.text = LabelPond.text! + "."
+//            break
+//            case 3:
+//            LabelOz.text = LabelOz.text! + "."
+//            break
+//            default:
+//            break
+//    
+//            }
+//        }
+//        
+        
+    }
+    
     
     @IBAction func tappedC(sender: UIButton) {
         total = 0
@@ -120,7 +297,10 @@ class ViewController: UIViewController {
         LabelFahrenheit.text = "0"
         LabelPond.text = "0"
         LabelOz.text = "0"
-        
+        labelCelsius.text = "0"
+        labelKg.text = "0"
+        labelMl.text = "0"
+        decimalPressed = 0
         
     }
     
