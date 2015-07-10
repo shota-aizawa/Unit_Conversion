@@ -84,30 +84,30 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
        super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        LabelFahrenheit.layer.borderWidth = 1.0
-        LabelFahrenheit.layer.borderColor = UIColor.lightGrayColor().CGColor
-        LabelFahrenheit.layer.cornerRadius = 10.0
+        LabelFahrenheit.layer.borderWidth = 2.5
+        LabelFahrenheit.layer.borderColor = UIColor.blueColor().CGColor
+        LabelFahrenheit.layer.cornerRadius = 15.0
         
-        LabelPond.layer.borderWidth = 1.0
-        LabelPond.layer.borderColor = UIColor.lightGrayColor().CGColor
-        LabelPond.layer.cornerRadius = 10.0
+        LabelPond.layer.borderWidth = 2.5
+        LabelPond.layer.borderColor = UIColor.blueColor().CGColor
+        LabelPond.layer.cornerRadius = 15.0
         
-        LabelOz.layer.borderWidth = 1.0
-        LabelOz.layer.borderColor = UIColor.lightGrayColor().CGColor
-        LabelOz.layer.cornerRadius = 10.0
+        LabelOz.layer.borderWidth = 2.5
+        LabelOz.layer.borderColor = UIColor.blueColor().CGColor
+        LabelOz.layer.cornerRadius = 15.0
         
         
-        labelCelsius.layer.borderWidth = 1.0
-        labelCelsius.layer.borderColor = UIColor.lightGrayColor().CGColor
-        labelCelsius.layer.cornerRadius = 10.0
+        labelCelsius.layer.borderWidth = 2.5
+        labelCelsius.layer.borderColor = UIColor.blueColor().CGColor
+        labelCelsius.layer.cornerRadius = 15.0
         
-        labelKg.layer.borderWidth = 1.0
-        labelKg.layer.borderColor = UIColor.lightGrayColor().CGColor
-        labelKg.layer.cornerRadius = 10.0
+        labelKg.layer.borderWidth = 2.5
+        labelKg.layer.borderColor = UIColor.blueColor().CGColor
+        labelKg.layer.cornerRadius = 15.0
         
-        labelMl.layer.borderWidth = 1.0
-        labelMl.layer.borderColor = UIColor.lightGrayColor().CGColor
-        labelMl.layer.cornerRadius = 10.0
+        labelMl.layer.borderWidth = 2.5
+        labelMl.layer.borderColor = UIColor.blueColor().CGColor
+        labelMl.layer.cornerRadius = 15.0
         
         
     }
