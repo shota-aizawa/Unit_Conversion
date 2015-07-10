@@ -13,6 +13,7 @@
 		D42A55E51B4C628900634D09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D42A55E41B4C628900634D09 /* Images.xcassets */; };
 		D42A55E81B4C628900634D09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D42A55E61B4C628900634D09 /* LaunchScreen.xib */; };
 		D42A55F41B4C628900634D09 /* Unit_ConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42A55F31B4C628900634D09 /* Unit_ConversionTests.swift */; };
+		D42A55FE1B4F603000634D09 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42A55FD1B4F603000634D09 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D42A55ED1B4C628900634D09 /* Unit_ConversionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Unit_ConversionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D42A55F21B4C628900634D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D42A55F31B4C628900634D09 /* Unit_ConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Unit_ConversionTests.swift; sourceTree = "<group>"; };
+		D42A55FD1B4F603000634D09 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42A55FE1B4F603000634D09 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		D42A55CF1B4C628900634D09 = {
 			isa = PBXGroup;
 			children = (
+				D42A55FD1B4F603000634D09 /* QuartzCore.framework */,
 				D42A55DA1B4C628900634D09 /* Unit_Conversion */,
 				D42A55F01B4C628900634D09 /* Unit_ConversionTests */,
 				D42A55D91B4C628900634D09 /* Products */,

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>02BCCC9E-5F5B-4F01-8006-4F6A7F9FF736</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8DAE3A53AF093040D9F20791E9E2037185FCC7DE</key>
+		<string>https://github.com/shota-aizawa/Unit_Conversion.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Unit_Conversion/Unit_Conversion.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8DAE3A53AF093040D9F20791E9E2037185FCC7DE</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/shota-aizawa/Unit_Conversion.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8DAE3A53AF093040D9F20791E9E2037185FCC7DE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8DAE3A53AF093040D9F20791E9E2037185FCC7DE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Unit_Conversion</string>
+		</dict>
+	</array>
+</dict>
+</plist>

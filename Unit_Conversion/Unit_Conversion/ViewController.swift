@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import QuartzCore
 
 class ViewController: UIViewController {
 
@@ -14,6 +15,8 @@ class ViewController: UIViewController {
     var valueString:String! = ""
     var mode:Int = 0
     var decimalPressed:Int = 0
+    
+
     
     
     @IBAction func switchTemperature(sender: UISwitch) {
@@ -79,8 +82,34 @@ class ViewController: UIViewController {
     
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+       super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        LabelFahrenheit.layer.borderWidth = 1.0
+        LabelFahrenheit.layer.borderColor = UIColor.lightGrayColor().CGColor
+        LabelFahrenheit.layer.cornerRadius = 10.0
+        
+        LabelPond.layer.borderWidth = 1.0
+        LabelPond.layer.borderColor = UIColor.lightGrayColor().CGColor
+        LabelPond.layer.cornerRadius = 10.0
+        
+        LabelOz.layer.borderWidth = 1.0
+        LabelOz.layer.borderColor = UIColor.lightGrayColor().CGColor
+        LabelOz.layer.cornerRadius = 10.0
+        
+        
+        labelCelsius.layer.borderWidth = 1.0
+        labelCelsius.layer.borderColor = UIColor.lightGrayColor().CGColor
+        labelCelsius.layer.cornerRadius = 10.0
+        
+        labelKg.layer.borderWidth = 1.0
+        labelKg.layer.borderColor = UIColor.lightGrayColor().CGColor
+        labelKg.layer.cornerRadius = 10.0
+        
+        labelMl.layer.borderWidth = 1.0
+        labelMl.layer.borderColor = UIColor.lightGrayColor().CGColor
+        labelMl.layer.cornerRadius = 10.0
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -174,29 +203,15 @@ class ViewController: UIViewController {
             
         }else if (decimalPressed == 1){
             
-                if (num == 0){
             
-    
-//                    valueString = concatZero().stringByAppendingString(current)
-
-                    valueString = valueString.stringByAppendingString(current)
                     
-                }else {
-            
-//                    valueString = concatNonZero().stringByAppendingString(current)
-                    
-                    
-                    
-                        
                         valueString = valueString.stringByAppendingString(current)
                         var dec:Double = NSString (string: valueString).doubleValue
                         dec = dec/10
                     
                     valueString = dec.description
+                    decimalPressed += 1
                     
-            
-                }
-        
 
         
         switch mode{
@@ -303,6 +318,7 @@ class ViewController: UIViewController {
         decimalPressed = 0
         
     }
+    
     
     
 }
